@@ -1,0 +1,52 @@
+.NavbarItems {
+    background: white;
+    height: 6.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    padding: 2vh;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 50vw;
+    justify-content: end;
+    margin-right: 2rem;
+}
+
+.nav-links {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: #22B393;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links:hover {
+    color: white;
+    background-color:#22B393;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+
+// .navbar{
+//     height: 6.5vh;
+//     align-items: center;
+//     padding: 2vh;
+//     background-color: white;
+//     font-family: 'Manrope', sans-serif;
+//     font-weight: 600;
+//     border-bottom: 10px;
+//     border-color: gray;
+// }

@@ -1,0 +1,18 @@
+.RecognitionMessage{
+    display: block;
+    background-color: #FAFAFA;
+    padding:3vh 10vh;
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+
+    .ValueTitle{
+        font-weight: 700;
+        color:#22B393;
+        font-size: 1.2rem;
+    }
+
+    .MessageContent{
+        font-weight: 400;
+        color: #6C757D;
+    }
+}
