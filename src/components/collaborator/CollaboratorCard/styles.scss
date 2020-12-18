@@ -1,18 +1,23 @@
-.recognitionMessage{
+.collaboratorCard{
     display: block;
     background-color: #FAFAFA;
-    padding:3vh 10vh;
+    padding:1vh 10vh;
     border-radius: 4px;
     font-family: 'Manrope', sans-serif;
+    margin-top: 1vh;
 
-    .valueTitle{
+    .personName{
         font-weight: 700;
-        color:#22B393;
+        color: #343A40;
         font-size: 1.2rem;
     }
 
-    .messageContent{
+    .personPosition{
         font-weight: 400;
         color: #6C757D;
     }
+
+}
+.selectedCol{
+    background-color: #EEEEEE;
 }

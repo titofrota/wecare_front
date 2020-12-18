@@ -1,5 +1,11 @@
 .SearchItems{
     margin-top: 7vh;
     justify-content: left;
-    background-color: red;
+    font-family: 'Manrope', sans-serif;
+
+    .SearchInput{
+        color: #6C757D;
+        border-radius: 4px;
+    }
+
 }

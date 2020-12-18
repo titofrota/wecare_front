@@ -1,13 +1,12 @@
-import Subtitle from '../../shared/Subtitle/Subtitle';
 import './styles.scss'
 
 export default function RecognitionMessage({ recognition }){
     return(
-        <div className='RecognitionMessage'>
-            <div className='ValueTitle'>
+        <div className='recognitionMessage'>
+            <div className='valueTitle'>
                 {recognition.value.title}
             </div>
-            <div className='MessageContent'>
+            <div className='messageContent'>
                 {recognition.message}
             </div>
         </div>
