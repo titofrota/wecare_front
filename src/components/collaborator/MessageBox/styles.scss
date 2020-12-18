@@ -1,0 +1,35 @@
+.messageBox{
+    margin-top: 3vh;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+
+}
+
+.titleMessage{
+    font-weight: 700;
+    display: block;
+    color: #343A40;
+    font-size: 1.2rem;
+    margin-top: 3vh;
+}
+
+.sendButton{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    background-color: #22B393;
+    color: white;
+    align-self: center;
+    display: inline;
+    padding: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    border-radius: 4pt;
+    margin: auto;
+    border: none;
+    outline: none;
+
+    &:focus{
+        border: none;
+        outline: none;
+    }
+}

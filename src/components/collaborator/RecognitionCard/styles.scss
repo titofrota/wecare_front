@@ -1,0 +1,31 @@
+.RecognitionCard{
+
+    // margin-top: 4.7vh;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    
+    .Timestamp{
+        font-weight: 400;
+        color:#6C757D;
+        font-size: 1.2rem;
+    }
+    
+
+    .Information{
+        display: flex;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+
+    .Interactions{
+        display: inline;
+        font-size: 18pt;
+        color:#6C757D;
+    }
+
+    .Comment{
+        display: flex;
+
+    }
+
+}

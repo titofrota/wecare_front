@@ -1,0 +1,39 @@
+.valueTag{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    margin-top: 2vh;
+    display: flex;
+    
+    // align-self: center;
+    
+    .unselectedVal{
+        background-color: #FAFAFA;
+        align-self: center;
+        display: inline;
+        padding: 1vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        border-radius: 4pt;
+        margin: auto;
+    }
+    .selectedVal{
+        background-color: #22B393;
+        color: white;
+        align-self: center;
+        display: inline;
+        padding: 1vh;
+        margin-left: 1vh;
+        margin-right: 1vh;
+        border-radius: 4pt;
+        margin: auto;
+    }
+
+}
+.titleTags{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    display: block;
+    color: #343A40;
+    font-size: 1.2rem;
+    margin-top: 3vh;
+}
